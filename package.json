@@ -4,7 +4,8 @@
   "description": "",
   "main": "backend.js",
   "scripts": {
-    "start": "nodemon backend.js"
+    "start": "nodemon backend.js",
+    "heroku-postbuild": "npm install"
   },
   "author": "",
   "license": "ISC",
